@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color: rgb(255, 252, 250);
+}
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+}
+.title {
+    background-color: black;
+    text-align: center;
+    color: white;
+    min-width: 100%;
+    margin: 0;
+    height: 4rem;
+    align-items: center;
+    
+}
+
+header h2,
+header p {
+    text-align: center;
+}
+header h2 {
+    color: black;
+}
+header p {
+    color: silver;
+    font-size: 120%;
+    margin: 1rem 1rem 4rem 1rem;
+}
+.line-1 {
+    height: 5px;
+    max-width: 90%;
+    background: black;
+    margin: auto;
+}
+.line-2 {
+    height: 3px;
+    max-width: 90%;
+    background: black;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+body h2 {
+    margin-left: 1rem;
+}
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+label{
+    font-size: large;
+    min-width: 100%;
+    color: rgb(155, 153, 153);
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select[id="state"] {
+    min-width: 100%;
+    padding: 0.9rem;
+    border-color: white;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+}
+label {
+    margin-bottom: 0;
+}
+fieldset {
+    border: 0;
+    padding: 1rem;
+}
+::placeholder{
+    float: right;
+    color: rgba(103, 106, 109, 0.507);
+}
+.p-newsletter {
+    color: silver;
+    font-size: 120%;
+    margin-bottom: 2rem;
+}
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+/* .container-2 label{
+    margin-top: 10%;
+} */
