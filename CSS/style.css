@@ -79,9 +79,10 @@ label{
     color: rgb(0, 0, 0);
     margin-bottom: 0;
 }
-.container-2 #other_topics {
-    margin-top: 5rem;
-}
+label[for="other_topics"] {
+    display: block;
+    margin-top: 2rem;
+  }
 .container input,
 select,
 textarea{
