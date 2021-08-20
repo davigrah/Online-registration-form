@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Online Registration</title>
-</head>
-<header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+        <title>Online Registration</title>
+    </head>
     <nav>
         <div class="main-nav">
             <div class=title><h1>THE CODE REVIEW</h1></div>
         </div>
     </nav> 
-
+<header>
     <h2>Signup for our newsletter</h2>
     <p>Get the latest news on how your code is doing right in your inbox</p>
-
-</header>
-<body>
     <div class="line-1"></div>
     <div class="line-2"></div>
+</header>
+<body>
     <form>
-        <h2>Contact Information</h2>
         <div class="container"> 
+            <h2>Contact Information</h2>
             <fieldset>
                 <label for="name">Full Name</label><br>
                 <input type="text" id="name" name="user_name" placeholder="Required"><br>
@@ -52,6 +54,7 @@
                 <label for="zip_code">Zip Code</label><br>
                 <input type="number" id="zip_code" name="user_zip_code"><br>
             </fieldset>
+            <div class="line-3"></div>
     </div>
     <div class="container-2">  
             <fieldset>
@@ -61,7 +64,7 @@
                 <input type="checkbox" id="css_news" name="user_newsletter_preference"><label>CSS News</label><br>
                 <input type="checkbox" id="javascript_news" name="user_newsletter_preference"><label>Javascript News</label><br>
 
-                <label>Newsletter Format</label><br>
+                <h3>Newsletter Format</h3>
                 <input type="radio" id="html_format" value="html_format" name="user_newsletter_format_preference"><label>HTML</label><br>
                 <input type="radio" id="plain_format" value="plain_format" name="user_newsletter_format_preference"><label>Plain text</label><br>
             </fieldset>
@@ -74,4 +77,9 @@
     </form>
     
 </body>
+<footer>
+    <div class="footerContainer">
+        <p class="copyright">© Copyright The Code 2021</p>
+    </div>
+</footer>
 </html>
