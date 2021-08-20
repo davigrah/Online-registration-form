@@ -6,7 +6,7 @@ body{
     background-color: rgb(255, 252, 250);
     font-family: 'Merriweather', serif;
 }
-input:focus,
+.container input:focus,
 select:focus,
 textarea:focus {
    background-color: red;
@@ -75,12 +75,9 @@ label{
     min-width: 100%;
     color: rgb(155, 153, 153);
 }
-input[name=user_name],
-input[name=user_email],
-input[name=user_phone_number],
-input[name=user_address],
-input[name=user_city],
-select[name=user_state]{
+.container input,
+select,
+textarea{
     min-width: 100%;
     padding: 0.9rem;
     border-color: white;
@@ -88,7 +85,7 @@ select[name=user_state]{
     background-color: whitesmoke;
     margin-bottom: 2rem;
 }
-input[name=user_zip_code] {
+#zip_code {
     max-width: 50%;
     padding: 0.9rem;
     border-color: white;
