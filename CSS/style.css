@@ -27,7 +27,10 @@ textarea:focus {
     margin: 0;
     height: 4rem;
     align-items: center;
-    
+}
+legend {
+    font-size: 1.5em;
+    font-weight: bolder;
 }
 
 header h2,
@@ -74,6 +77,10 @@ label{
     font-size: large;
     min-width: 100%;
     color: rgb(0, 0, 0);
+    margin-bottom: 0;
+}
+.container-2 #other_topics {
+    margin-top: 5rem;
 }
 .container input,
 select,
@@ -88,10 +95,6 @@ textarea{
 }
 #zip_code {
     max-width: 50%;
-}
-
-label {
-    margin-bottom: 0;
 }
 fieldset {
     border: 0;
