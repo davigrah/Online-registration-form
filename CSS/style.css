@@ -83,6 +83,10 @@ label[for="other_topics"] {
     display: block;
     margin-top: 2rem;
   }
+#name::placeholder,
+#email::placeholder {
+  text-align: right;
+}
 .container input,
 select,
 textarea{
