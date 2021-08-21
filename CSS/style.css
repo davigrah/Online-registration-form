@@ -142,6 +142,10 @@ button{
     margin: auto;
     color: white;
     background-color: black;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background-color: rgb(118, 165, 118);
 }
 footer {
     min-height: 100px;
