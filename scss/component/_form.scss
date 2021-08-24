@@ -1,0 +1,79 @@
+.container input:focus,
+select:focus,
+textarea:focus {
+   background-color: rgb(253, 253, 181);
+}
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+label{
+    font-size: large;
+    min-width: 100%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+}
+label[for="other_topics"] {
+    display: block;
+    margin-top: 2rem;
+  }
+#name::placeholder,
+#email::placeholder {
+  text-align: right;
+}
+.container input,
+select,
+textarea{
+    width: 100%;
+    padding: 0.9rem;
+    border-color: white;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+    transition: background-color 1s;
+}
+#zip_code {
+    max-width: 50%;
+}
+fieldset {
+    border: 0;
+    padding: 1rem;
+}
+textarea::placeholder{
+    float: left;
+}
+::placeholder{
+    float: right;
+    color: rgba(103, 106, 109, 0.507);
+}
+.p-newsletter {
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    margin-bottom: 2rem;
+}
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container-2 input {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.container-2 h3{
+    margin-bottom: 0;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    margin: 10px auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}

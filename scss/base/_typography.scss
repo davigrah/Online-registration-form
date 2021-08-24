@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color: rgb(161, 159, 163);
+    font-family: 'Merriweather', serif;
+}
+.title {
+    background-color: black;
+    text-align: center;
+    color: white;
+    min-width: 100%;
+    margin: 0;
+    height: 4rem;
+    align-items: center;
+}
+header h2,
+header p {
+    text-align: center;
+}
+header h2 {
+    color: black;
+}
+header p {
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    margin: 1rem 1rem 4rem 1rem;
+}
+.line-1 {
+    height: 5px;
+    max-width: 90%;
+    background: black;
+    margin: auto;
+}
+.line-2 {
+    height: 3px;
+    max-width: 90%;
+    background: black;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.line-3 {
+    height: 3px;
+    max-width: 90%;
+    background: black;
+    margin: auto;
+}
+body h2 {
+    margin-left: 1rem;
+}
+p.copyright {
+    color: silver;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+}
